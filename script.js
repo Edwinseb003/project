@@ -1,4 +1,4 @@
-// Feature box tap effect
+
 document.querySelectorAll('.feature-box').forEach(box => {
   box.addEventListener('touchstart', () => {
     box.classList.add('tapped');
@@ -13,8 +13,6 @@ document.querySelectorAll('.feature-box').forEach(box => {
     box.classList.remove('hovered');
   });
 });
-
-// Button ripple effect
 document.querySelectorAll('.contact-btn').forEach(button => {
   button.addEventListener('click', function (e) {
     const ripple = document.createElement('span');
