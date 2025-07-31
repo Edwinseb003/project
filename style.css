@@ -11,8 +11,6 @@ body {
   color: #222;
   line-height: 1.6;
 }
-
-/* === Feature Section === */
 .features {
   display: flex;
   justify-content: space-around;
@@ -58,8 +56,6 @@ body {
   font-size: 0.95rem;
   color: #333;
 }
-
-/* === Content Section === */
 .content {
   display: flex;
   justify-content: center;
@@ -105,8 +101,6 @@ body {
   color: #555;
   margin-bottom: 25px;
 }
-
-/* === Button Effects === */
 .contact-btn {
   background-color: #f0a63e;
   color: white;
@@ -122,8 +116,6 @@ body {
   background-color: #d98c2e;
   transform: scale(1.05);
 }
-
-/* === Responsive === */
 @media (max-width: 768px) {
   .features {
     flex-direction: column;
@@ -142,7 +134,7 @@ body {
     margin-right: 0;
   }
 }
-/* JS Touch and Click Feedback */
+
 .tapped {
   box-shadow: 0 0 0 4px rgba(255, 255, 255, 0.4) inset;
   transform: scale(0.98);
@@ -151,8 +143,6 @@ body {
 .hovered {
   background-color: rgba(255, 255, 255, 0.2);
 }
-
-/* Ripple effect on buttons */
 .contact-btn {
   position: relative;
   overflow: hidden;
